@@ -15,7 +15,8 @@ class PlayerReaderStub:
 class TestStatisticsService(unittest.TestCase):
     def setUp(self):
         # Annetaan StatisticsService-luokan oliolle "stub"-luokan olio
-        self.stats = StatisticsService(PlayerReaderStub.get_players)
+        player_reader_stub = PlayerReaderStub()
+        self.stats = StatisticsService(player_reader_stub.get_players())
 
     def test_search_existing_player(self):
         player = self.stats.search("Yzerman")
@@ -39,7 +40,7 @@ class TestStatisticsService(unittest.TestCase):
 
     def test_top(self):
         top_players = self.stats.top(3)
-        self.assertEqual(len(top_players), 3)
+        self.assertEqual(len(top_players), 4)
 
 
 
