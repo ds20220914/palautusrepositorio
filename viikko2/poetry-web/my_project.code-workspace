@@ -1,0 +1,54 @@
+{"folders":[
+		{
+			"name": ".tmc",
+			"path": "../../../.config/Code/User/globalStorage/moocfi.test-my-code/workspaces/.tmc"
+		},
+		{
+			"name": "Verkkotentti21012023-Tehtava1",
+			"path": "../../../.local/share/tmc/vscode/hy-ohja-python-tentti-21012023/Verkkotentti21012023-Tehtava1"
+		},
+		{
+			"name": "Verkkotentti21012023-Tehtava2",
+			"path": "../../../.local/share/tmc/vscode/hy-ohja-python-tentti-21012023/Verkkotentti21012023-Tehtava2"
+		},
+		{
+			"name": "Verkkotentti21012023-Tehtava3",
+			"path": "../../../.local/share/tmc/vscode/hy-ohja-python-tentti-21012023/Verkkotentti21012023-Tehtava3"
+		},
+		{
+			"path": "."
+		}
+	],"settings":{"explorer.decorations.colors":false,"files.autoSave":"onFocusChange","files.exclude":{
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/__pycache__": true,
+            "**/.available_points.json": true,
+            "**/.tmc_test_results.json": true,
+            "**/.tmcproject.yml": true,
+            "**/tmc": true,
+            "**/.settings": true,
+            "**/.tmcproject.json": true,
+            "**/.tmc.json": true,
+            "**/.tmc.lock": true,
+            "**/.tmc_test_results.hmac.sha256": true
+        },
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/*/**": true,
+            "**/.hg/store/**": true,
+            "**/.vscode/**": true,
+            "**/.tmc.json": true
+        },
+        "problems.decorations.enabled": false,
+        "workbench.editor.closeOnFileDelete": true,
+        "testMyCode.downloadOldSubmission": true,
+        "testMyCode.hideMetaFiles": true,
+        "testMyCode.updateExercisesAutomatically": true,
+        "explorer.decorations.badges": true
+    }
+}
