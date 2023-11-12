@@ -19,5 +19,7 @@ class ProjectReader:
         dev=name1.get("group")
         dev1=dev.get("dev")
         dev2=dev1.get("dependencies")
+        aut=name1.get("authors",[])
+        lis=name1.get("license")
         # deserialisoi TOML-formaatissa oleva merkkijono ja muodosta Project-olio sen tietojen perusteella
-        return Project(name2,description,dependencies, dev2)
+        return Project(name2,description,lis,aut,dependencies, dev2)
