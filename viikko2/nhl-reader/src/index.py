@@ -13,8 +13,12 @@ def main():
     for player_dict in response:
         player = Player(player_dict)
         players.append(player)
-    print("Oliot:")
-    for player in players:
+    finnish_players = filter(lambda player: player.nationality == "FIN", players)
+    sorted_players = sorted(finnish_players, key=lambda p: p.goals + p.assists, reverse=True)
+
+
+    print("Players from FIN\n")
+    for player in sorted_players:
         print(player)
 
 if __name__ == "__main__":
