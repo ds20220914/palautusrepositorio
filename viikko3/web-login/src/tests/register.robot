@@ -35,6 +35,23 @@ Register With Nonmatching Password And Password Confirmation
      Submit Credentials
      Page Should Contain  password confirmation wrong
 
+Login After Successful Registration
+     Go To Register Page
+     Set Username  daviddd
+     Set Password  david123
+     Set Password Confirmation  david123
+     Submit Credentials
+     Page Should Contain  Welcome to Ohtu Application!
+Login After Failed Registration
+     Go To Register Page
+     Set Username  da
+     Set Password  david123
+     Set Password Confirmation  david123
+     Submit Credentials
+     Page Should Not Contain  Welcome to Ohtu Application!
+
+
+
 *** Keywords ***
 Register Should Succeed
     Register Success
