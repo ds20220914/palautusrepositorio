@@ -10,3 +10,4 @@ Ensimmäisen retrospektiivin jälkeen saimme ryhmässä seuraavia päätelmiä
 -mad. Tyhjä.
 
 1
+2
