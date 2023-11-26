@@ -11,3 +11,4 @@ Ensimmäisen retrospektiivin jälkeen saimme ryhmässä seuraavia päätelmiä
 
 1
 2
+3
