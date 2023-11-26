@@ -8,3 +8,5 @@ Ensimmäisen retrospektiivin jälkeen saimme ryhmässä seuraavia päätelmiä
 -Glad. Olen tosi ylpeä siitä, että ensimmäisessä sprintissa kaikki meni hyvin, saimme hyvin tehtyy kaikki tehtävät.
 -sad. Tyhjä.
 -mad. Tyhjä.
+
+1
