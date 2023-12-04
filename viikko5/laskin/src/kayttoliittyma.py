@@ -110,4 +110,5 @@ class Kumoa:
         self.syöte=syöte
 
     def suorita(self):
-        pass
+        self.logiikka.kumoa()
+
